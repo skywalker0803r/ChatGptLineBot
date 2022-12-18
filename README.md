@@ -1,2 +1,2 @@
-# ChatGptLineBot
-ChatGptLineBot
+# amadeuslinebot
+amadeus

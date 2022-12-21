@@ -46,7 +46,7 @@ handler = WebhookHandler('0e5e4c91217b0abae408c37512bd8352')
 host_id="Uc13726ca34cc65314694bad1cb6b7394"
 
 #定義路由器
-@app.route("/", methods=['POST'])
+@app.route("/", methods = ['POST', 'GET'])
 def index():
     # get X-Line-Signature header value
     signature = request.headers['X-Line-Signature']
